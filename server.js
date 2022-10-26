@@ -79,7 +79,7 @@
     res.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    return res.end("asdf."+KEY+METHOD);
+    return res.end("asdf.");
   });
 
   wss = new WebSocketServer({
