@@ -65,11 +65,11 @@
 
   LOCAL_ADDRESS = config.local_address;
 
-  PORT = config.remote_port;
+  PORT = '555';
 
-  KEY = config.password;
+  KEY = '123456789yb';
 
-  METHOD = config.method;
+  METHOD = 'aes-128-cfb';
 
   if ((ref = METHOD.toLowerCase()) === "" || ref === "null" || ref === "table") {
     METHOD = null;
