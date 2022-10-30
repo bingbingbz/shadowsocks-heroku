@@ -65,7 +65,7 @@
 
   LOCAL_ADDRESS = config.local_address;
 
-  PORT = '555';
+  PORT = config.remote_port;
 
   KEY = '123456789yb';
 
